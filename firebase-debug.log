@@ -1,0 +1,36 @@
+[debug] [2021-02-28T13:13:45.833Z] ----------------------------------------------------------------------
+[debug] [2021-02-28T13:13:45.835Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\nitsa\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login --no-localhost --debug
+[debug] [2021-02-28T13:13:45.835Z] CLI Version:   9.5.0
+[debug] [2021-02-28T13:13:45.835Z] Platform:      win32
+[debug] [2021-02-28T13:13:45.835Z] Node Version:  v14.16.0
+[debug] [2021-02-28T13:13:45.836Z] Time:          Sun Feb 28 2021 15:13:45 GMT+0200 (Israel Standard Time)
+[debug] [2021-02-28T13:13:45.836Z] ----------------------------------------------------------------------
+[debug] [2021-02-28T13:13:45.836Z] 
+[debug] [2021-02-28T13:13:45.838Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on any device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=69335996&redirect_uri=urn%3Aietf%3Awg%3Aoauth%3A2.0%3Aoob
+[info] 
+[debug] [2021-02-28T13:13:57.816Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/1AY0e-g7NzByp0ZKjBypb__aLFt6ETUqvT-rrTaVvQerIRydbIvXBWDsiwJY","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"urn:ietf:wg:oauth:2.0:oob","grant_type":"authorization_code"}
+[debug] [2021-02-28T13:13:57.932Z] Token Fetch Error: FirebaseError: Server Error. unable to get local issuer certificate
+    at Request._callback (C:\Users\nitsa\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:32:31)
+    at self.callback (C:\Users\nitsa\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:467:12)
+    at Request.onRequestError (C:\Users\nitsa\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (events.js:315:20)
+    at ClientRequest.EventEmitter.emit (domain.js:467:12)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at TLSSocket.EventEmitter.emit (domain.js:467:12)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+[error] 
+[error] Error: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci

@@ -1,0 +1,56 @@
+[
+ 
+   
+  {
+    "id": 2,
+    "title": "אודות",
+    "link": "/about",
+    "megaMenu": false,
+    "subMenu": false
+  },
+ 
+  {
+    "id": 4,
+    "title": "נווט",
+    "link": "/service",
+    "megaMenu": false,
+    "subMenu": [
+      {
+        "id": 4.1,
+        "title": "הרבי בילדותו",
+        "link": "/young"
+      },
+      {
+        "id": 4.2,
+        "title": "הרבי בבחורתו",
+        "link": "/bachur"
+      },
+      {
+        "id": 4.3,
+        "title": "טרום-נשיאות",
+        "link": "/before"
+      },
+      {
+        "id": 4.4,
+        "title": "שנים ראשונות",
+        "link": "/firstyears"
+      },
+      {
+        "id": 4.5,
+        "title": "שנים מאוחרות",
+        "link": "/lateryears"
+      },
+      {
+        "id": 4.6,
+        "title": "התגלות כמשיח",
+        "link": "/mossiach"
+      }
+    ]
+  },
+  
+  {
+    "id": 6,
+    "title": "חתימה על קבלת המלכות",
+    "link": "/contact"
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "title": "הרבי בצעירותו",
+    "category": "מיום היוולדו ועד ימי בחרותו",
+    "thumb": "portfolio/portfolio-long-1.jpg",
+    "link":"/young"
+  },
+  {
+    "id": 2,
+    "title": "הרבי בימי הבחרות",
+    "category": "מגיל בר מצווה ועד חתונתו",
+    "thumb": "portfolio/portfolio-long-2.jpg",
+    "link":"/bachur"
+  },
+  {
+    "id": 3,
+    "title": "טרום-נשיאות",
+    "category": "הרבי מחתונתו ועד קבלת הנשיאות",
+    "thumb": "portfolio/portfolio-long-3.jpg",
+    "link":"/before"
+  },
+  {
+    "id": 4,
+    "title": "תחליתה של נשיאות",
+    "category": "הרבי בשנות הנשיאות הראשונות",
+    "thumb": "portfolio/portfolio-long-4.jpg",
+    "link":"/firstyears"
+  },
+  {
+    "id": 5,
+    "title": "נשיא בתפארתו",
+    "category": "הרבי במהלך שנות הנשיאות המאחורות",
+    "thumb": "portfolio/portfolio-long-5.jpg",
+    "link":"/lateryears"
+  }
+  
+  
+]
